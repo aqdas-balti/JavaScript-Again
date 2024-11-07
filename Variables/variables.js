@@ -69,7 +69,7 @@ When to Use var, let, or const?
 //Just like in algebra, variables hold values:
 
 let x3 = 5;
-// let y3 = 6;
+let y3 = 6;
 //Just like in algebra, variables are used in expressions:
 
 let z3 = x3 + y3;
