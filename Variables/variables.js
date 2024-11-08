@@ -246,4 +246,4 @@ Example*/
 let _lastName = "Johnson";
 let _x = 2;
 let _100 = 5;
-// console.log(_lastName,_100,_x);
+console.log(_lastName,_100,_x);
