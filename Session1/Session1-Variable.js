@@ -17,11 +17,11 @@ console.log(message); // Output: "Hello!" (even though it was declared inside th
 Since let is block-scoped, it will not be accessible outside the block it’s declared in*/
 
 let age = 22;
-console.log(age); // Output: 22
+console.log("let Variable:",age); // Output: 22
 
 // You can reassign a variable declared with let:
 age = 26;
-console.log(age); // Output: 26
+console.log("let Variable",age); // Output: 26
 
 if (true) {
   let greeting = "Hello World!";
