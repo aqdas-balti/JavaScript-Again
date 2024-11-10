@@ -51,6 +51,7 @@ Stick to letters, numbers, underscores, and dollar signs, as using special chara
 // let user-name = "Alice";  // Invalid
 console.log("let user-name = anything; Invalid");
 
+
 /*
 Summary
 Start with a letter, underscore, or dollar sign.
