@@ -241,7 +241,6 @@ In the JavaScript library jQuery, for instance, the main function $ is used to s
 
 JavaScript Underscore (_)
 Since JavaScript treats underscore as a letter, identifiers containing _ are valid variable names:
-
 Example*/
 let _lastName = "Johnson";
 let _x = 2;
