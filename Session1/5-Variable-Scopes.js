@@ -71,5 +71,6 @@ Note:
 ### Behtareen Amaliyat (Practice)
 
 - `let` aur `const` ka zyada istemal karein, taake aapka code block-based scope ko follow kare aur ziada secure aur predictable rahe.
+
 - Global variables ka istemal kam se kam karein, kyun ke ye har jagah access hote hain aur bade mein code mein mushkilein paida kar sakte hain.
 */
