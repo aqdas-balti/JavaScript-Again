@@ -52,4 +52,10 @@ if (true) {
 Recap in the Console
 Use var for function-scoped variables (generally avoided in modern code).
 Use let for block-scoped variables that may change.
-Use const for block-scoped constants that won’t change. */
+Use const for block-scoped constants that won’t change.
+
+Key Differences:
+var is function-scoped, meaning it's available within the function it’s declared in, or globally if declared outside a function.
+let and const are block-scoped, meaning they are only available within the block (e.g., inside curly braces {}).
+const is used for variables whose values are intended to stay constant throughout the code execution.
+*/
