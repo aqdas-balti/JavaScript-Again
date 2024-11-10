@@ -47,6 +47,7 @@ let addTwo = function(num){
 }
 console.log(addTwo(6));//Here it will be accessible (7)
 
+
 /*
 Summary
 var: Hoisted and set to undefined.
