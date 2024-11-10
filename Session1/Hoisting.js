@@ -51,5 +51,5 @@ console.log(addTwo(6));//Here it will be accessible (7)
 Summary
 var: Hoisted and set to undefined.
 let and const: Hoisted but not usable until the line they’re declared on.
-Functions: Can be used before their declaration. 
+Functions: Can be used before their declaration. but function expression can't hoisted
 */
