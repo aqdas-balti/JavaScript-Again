@@ -69,6 +69,5 @@ Typed Arrays are used for handling binary data in raw formats (useful for WebGL 
 - **`Float32Array`**, **`Float64Array`**
   
 ### Summary of Built-in Objects in JavaScript
-
 JavaScript's built-in objects allow for a wide variety of operations, including mathematical calculations, string manipulation, error handling, data storage, asynchronous operations, and more. This foundational set of objects is extended in modern JavaScript through libraries and frameworks, enhancing JavaScript’s capabilities for web, server, and cross-platform development.
 */
