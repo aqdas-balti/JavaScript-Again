@@ -1,9 +1,11 @@
 /*
+javascript is a dynamically typed language means no need to declare a type with variables when we store anything into the variable.
+but in typescript it is a statically typed language in this we need to declare the type also with variables when we store anything into the variable.
 JavaScript mein data types wo cheezen hain jo humein bataati hain ke aik variable mein kis tarah ka data store ho raha hai. Data types ko do basic categories mein divide kiya ja sakta hai: **primitive types** aur **non-primitive types**.
 
 ### 1. **Primitive Data Types**
 Primitive data types simple aur immutable (yaani aik dafa banane ke baad change nahi ho sakte) hoti hain.
-
+yea primitive data types call by value ka scenario ko follow kartay ha yea, hm yea keh sakty ha ka is ko memory ma value ka base pa store kia jata ha or access kia jata ha
 1. **Number**
    - Number type har tarah ke numbers ko represent karta hai, chahe wo integers (jaise 5, -10) ho ya decimal numbers (jaise 3.14).
    - JavaScript mein kuch special numeric values bhi hoti hain:
@@ -79,6 +81,7 @@ console.log("Boolean is primitive datatype:",isMember);
 /*
 ### 2. **Non-Primitive Data Types (Objects)**
 Non-primitive types mutable hote hain aur reference ke zariye access kiye jate hain, yaani ye change ho sakte hain.
+yea non primitive data types call by reference ka scenario ko follow kartay ha yea, hm yea keh sakty ha ka is ko memory ma reference ka base pa store kia jata ha or access kia jata ha
 */
 /*
 1. **Object**
