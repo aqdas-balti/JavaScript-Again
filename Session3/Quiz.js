@@ -1,4 +1,4 @@
-//2 objects banaye student or attendance i list ma
+//2 objects banaye student or attendance list mad
 
 let students = [{
     name:"Aqdas",
@@ -25,3 +25,16 @@ let students = [{
     
 }]
 console.log(students[0].address);
+
+//Array of an object
+let user = [{
+    user_name : "Ali",
+    phone : "03434422584",
+    email : "aqdasali584@gmail.com",
+    Check_LoggedIn : [{
+    myArray21:["Aqdas", "Anwar", "Furqan", "Irfan"],
+    myArray2:["Aqdas", "Anwar", "Furqan", "Irfan"],
+    }],
+}]
+console.log(user[0].Check_LoggedIn);
+

@@ -1,0 +1,101 @@
+{
+    "Inventories":
+    [{
+        "partsId" :"001",
+         "name" : "Dash Dort",
+        "category" : "Car",
+        "make" : "Duplicate",
+        "model" : "newModel",
+        "year" : "2024",    
+        "price" : "2cr",
+        "current-inStock" : "Yes"
+    },
+
+    {
+        "partsId" :"002",
+        "name" : "Tyre",
+        "category" : "Truck",
+        "make" : "Ass",
+        "model" : "Old",
+        "year" : "2023",
+        "price" : "3cr",
+        "current-inStock" : "No"
+    },
+
+    {
+        "partsId" :"003",
+        "name" : "Lock",
+        "category" : "heavyMachine",
+        "make" : "asd",
+        "model" : "Old",
+        "year" : "2020",
+        "price" : "4cr",
+        "current-inStock" : "Yes"
+    }
+],
+
+
+    "Employee":
+    [{
+        "customerId" :"101",
+        "name" : "Hammad",
+        "email" : "hammad@hotmail.com",
+        "phoneNo" : "0343263126",
+        "startDate":"02-12-2020S"
+    },
+
+    {
+        "customerId" :"102",
+        "name" : "Hammad Ali",
+        "email" : "ali@hotmail.com",
+        "phoneNo" : "0342323126",
+        "startDate":"02-12-2020"
+    }
+],
+
+    "Customers":
+    [{
+        "customerId" :"976",
+        "name" : "Qasim",
+        "email" : "Qasim@hotmial.com",
+        "phoneNo" : "035244167",
+        "dateofLastvisit" : "2-10-2024"
+    },
+    
+    {
+        "customerId" :"103",
+        "name" : "Hammad Afghan",
+        "email" : "afghan@hotmail.com",
+        "phoneNo" : "03343436",
+        "startDate":"02-12-2023"
+    }
+    
+],
+
+    "Sales":
+    [{
+        "transactionId" :"975",
+        "customerId" : "122",
+        "employeeId" : "976",
+        "partsId" :"001",
+        "totalSales" : "10000",
+        "transactionDate" : "2-10-2024"
+    },
+    {
+        "transactionId" :"976",
+        "customerId" : "123",
+        "employeeId" : "977",
+        "partsId" :"002",
+        "totalSales" : "10000",
+        "transactionDate" : "3-10-2024"
+    },
+    {
+        "transactionId" :"977",
+        "customerId" : "124",
+        "employeeId" : "978",
+        "partsId" :"003",
+        "totalSales" : "100000",
+        "transactionDate" : "3-10-2025"
+    }
+
+]}
