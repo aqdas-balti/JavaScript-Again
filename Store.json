@@ -1,7 +1,8 @@
+
 {
     "Inventories":
     [{
-        "partsId" :"001",
+        "partsId" :"0011",
          "name" : "Dash Dort",
         "category" : "Car",
         "make" : "Duplicate",
@@ -12,7 +13,7 @@
     },
 
     {
-        "partsId" :"002",
+        "partsId" :"0022",
         "name" : "Tyre",
         "category" : "Truck",
         "make" : "Ass",
@@ -23,7 +24,7 @@
     },
 
     {
-        "partsId" :"003",
+        "partsId" :"0033",
         "name" : "Lock",
         "category" : "heavyMachine",
         "make" : "asd",
@@ -37,7 +38,7 @@
 
     "Employee":
     [{
-        "customerId" :"101",
+        "customerId" :"1011",
         "name" : "Hammad",
         "email" : "hammad@hotmail.com",
         "phoneNo" : "0343263126",
@@ -45,7 +46,7 @@
     },
 
     {
-        "customerId" :"102",
+        "customerId" :"1022",
         "name" : "Hammad Ali",
         "email" : "ali@hotmail.com",
         "phoneNo" : "0342323126",
