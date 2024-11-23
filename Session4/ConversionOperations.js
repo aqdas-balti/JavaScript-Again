@@ -7,94 +7,128 @@ The programmer explicitly (itself) converts the type using JavaScript functions 
 Examples include using String(), Number(), or Boolean() etc.*/
 
 //Based on Conversion Method
-// 1. Implicit Type Casting (Type Coercion)
-
-
-
-
-
-//Converting Numbers to Strings
-console.log("******************0001********************");
-//Number datatype conversing into string starts from here:
-let score = 60;
-//Actual Answers are:
-console.log("Actual Ans is:", score); //60
-console.log("Actual typeof (60) is:", typeof score); //number
-console.log("This is the actual typeof with another way of writing:",typeof (score)); //number
-
-//After converted number into string check below:
-let convertIntoString = String(score);//String conversion method syntax
-console.log("Converted value is:",convertIntoString);
-console.log("This is converted (number) typeof into (string) is :", typeof convertIntoString); //Converted into (string)
-
-console.log("******************0002********************");
-//Boolean Datatype conversing into number, and string starts from here:
+// 1. Implicit Type Casting (Type Coercion):  It performed Automatically by the programming language
+//1.1) String Concatenation with Number:
+let strConcatenation = "Aqdas"+999;
+// console.log(strConcatenation);//Implicitly converts 999 to "999"
+// console.log(typeof strConcatenation);//string
 console.log("\n");
-let isLogedIn = true;
-// Actual Answers are: 
-console.log("Actual Ans is:", isLogedIn);//true
-console.log("Actual typeof (true) is:", typeof isLogedIn);//boolean
+let numConcatenation = 222+"Ali";
+// console.log(numConcatenation);//222Ali
+// console.log(typeof numConcatenation);//string
 
-//After converted boolean into number check below:
-let boolNumber = Number(isLogedIn); //Number conversion method syntax
-console.log("Converted value is:", isLogedIn);//Boolean converted into number 1 for true(1)and false(0)
-console.log("This is Converted (boolean) typeof into (number is :", typeof isLogedIn);//number
-
-//After boolean converted into string check below:
-let boolToStr= String(isLogedIn)//String conversion method syntax
-console.log("Converted value is:",boolToStr);//true
-console.log("This is Converted (boolean) typeof into (string) is :",typeof boolToStr);//string
-
-console.log("******************0003********************");
-//Null datatype conversing into number, string, and boolean stars from here:
+//1.2) Boolean in Arithmetic:
 console.log("\n");
-let nullCon = null;
-//Actual Answers are:
-console.log("Actual Ans is:", nullCon); //null
-console.log("Actual typeof (null) is:", typeof nullCon); //object
+let boolInAri = true+999;
+// console.log(boolInAri);//true is implicitly converted to 1
+// console.log(typeof boolInAri);//boolean
 
-//After null Converted null into number:
-let nullToNumber = Number(nullCon);//Number conversion method syntax
-console.log("Converted value is:", nullToNumber); //0
-console.log("This is Converted (null) typeof into (number) is :", typeof nullToNumber); //number
-
-//After converted null into string check below
+//1.3) Comparisons implicitly:
 console.log("\n");
-let nullToString = String(nullCon); //Converted to number
-console.log("Converted value is:", nullToString); //null
-console.log("This is Converted (null) typeof into (string) is :", typeof nullToString); //string
-
-//After converted null into boolean check below
-let nullToBool=Boolean(nullCon);
-console.log("Converted value is:",nullToBool);//false
-console.log("This is Converted (null) typeof into (boolean) is :",typeof nullToBool);//boolean
+let isEqual = "10"==10;//Implicitly converted 10 to "10"
+// console.log(isEqual);//true
+// console.log(typeof isEqual);//boolean
 
 
-//Undefined data type is object in actual converting it into string, number,and boolean
+//2.Explicitly type casting: It Performed manually by the programmer using casting methods, functions, or operators.
+//2.1) Convert String to Number:
 console.log("\n");
-console.log("******************0004********************");
-let undefineVal = undefined;
-//Actual Answers are:
-console.log("Actual Ans is:", undefineVal); //undefined
-console.log("Actual typeof (undefined) is :", typeof undefineVal); //undefined
 
-//Converting undefined into number:
-console.log("\n");
-let undefinedToNumber = Number(undefineVal); //Converted to number
-console.log("Converted value is:", undefinedToNumber); //NaN (not s number)
-console.log("This is Converted value of (undefined) typeof into (number) is :", typeof undefinedToNumber); //number
+let str = "Hello";
+console.log("Actual Ans of str is :",str);//Hello
+console.log("Actual Datatype of str is :",typeof str);//string
+//After Conversing string into number check below:
+let strToNo = Number(str);
+console.log("After Converted strToNo value is :",strToNo);//NaN (not a number)
+console.log("After converted typeof strToNo is :",typeof strToNo);//number
 
-//Converting undefined into string:
+//2.2) Convert Number to String:
 console.log("\n");
-let undefinedToStr= String(undefineVal);
-console.log("Converted value is:",undefinedToStr);//undefined
-console.log("This is Converted value of (undefined) typeof into (string) is :", typeof undefinedToStr); //string
 
-//converting undefined into boolean:
-console.log("\n");
-let undefinedToBoolean = Boolean(undefineVal);
-console.log("Converted value is:",undefinedToBoolean);//false
-console.log("This is Converted value of (undefined) typeof into (boolean) is :", typeof undefinedToBoolean);//boolean
+
+
+// //Converting Numbers to Strings
+// console.log("******************0001********************");
+// //Number datatype conversing into string starts from here:
+// let score = 60;
+// //Actual Answers are:
+// console.log("Actual Ans is:", score); //60
+// console.log("Actual typeof (60) is:", typeof score); //number
+// console.log("This is the actual typeof with another way of writing:",typeof (score)); //number
+
+// //After converted number into string check below:
+// let convertIntoString = String(score);//String conversion method syntax
+// console.log("Converted value is:",convertIntoString);
+// console.log("This is converted (number) typeof into (string) is :", typeof convertIntoString); //Converted into (string)
+
+// console.log("******************0002********************");
+// //Boolean Datatype conversing into number, and string starts from here:
+// console.log("\n");
+// let isLogedIn = true;
+// // Actual Answers are: 
+// console.log("Actual Ans is:", isLogedIn);//true
+// console.log("Actual typeof (true) is:", typeof isLogedIn);//boolean
+
+// //After converted boolean into number check below:
+// let boolNumber = Number(isLogedIn); //Number conversion method syntax
+// console.log("Converted value is:", isLogedIn);//Boolean converted into number 1 for true(1)and false(0)
+// console.log("This is Converted (boolean) typeof into (number is :", typeof isLogedIn);//number
+
+// //After boolean converted into string check below:
+// let boolToStr= String(isLogedIn)//String conversion method syntax
+// console.log("Converted value is:",boolToStr);//true
+// console.log("This is Converted (boolean) typeof into (string) is :",typeof boolToStr);//string
+
+// console.log("******************0003********************");
+// //Null datatype conversing into number, string, and boolean stars from here:
+// console.log("\n");
+// let nullCon = null;
+// //Actual Answers are:
+// console.log("Actual Ans is:", nullCon); //null
+// console.log("Actual typeof (null) is:", typeof nullCon); //object
+
+// //After null Converted null into number:
+// let nullToNumber = Number(nullCon);//Number conversion method syntax
+// console.log("Converted value is:", nullToNumber); //0
+// console.log("This is Converted (null) typeof into (number) is :", typeof nullToNumber); //number
+
+// //After converted null into string check below
+// console.log("\n");
+// let nullToString = String(nullCon); //Converted to number
+// console.log("Converted value is:", nullToString); //null
+// console.log("This is Converted (null) typeof into (string) is :", typeof nullToString); //string
+
+// //After converted null into boolean check below
+// let nullToBool=Boolean(nullCon);
+// console.log("Converted value is:",nullToBool);//false
+// console.log("This is Converted (null) typeof into (boolean) is :",typeof nullToBool);//boolean
+
+
+// //Undefined data type is object in actual converting it into string, number,and boolean
+// console.log("\n");
+// console.log("******************0004********************");
+// let undefineVal = undefined;
+// //Actual Answers are:
+// console.log("Actual Ans is:", undefineVal); //undefined
+// console.log("Actual typeof (undefined) is :", typeof undefineVal); //undefined
+
+// //Converting undefined into number:
+// console.log("\n");
+// let undefinedToNumber = Number(undefineVal); //Converted to number
+// console.log("Converted value is:", undefinedToNumber); //NaN (not s number)
+// console.log("This is Converted value of (undefined) typeof into (number) is :", typeof undefinedToNumber); //number
+
+// //Converting undefined into string:
+// console.log("\n");
+// let undefinedToStr= String(undefineVal);
+// console.log("Converted value is:",undefinedToStr);//undefined
+// console.log("This is Converted value of (undefined) typeof into (string) is :", typeof undefinedToStr); //string
+
+// //converting undefined into boolean:
+// console.log("\n");
+// let undefinedToBoolean = Boolean(undefineVal);
+// console.log("Converted value is:",undefinedToBoolean);//false
+// console.log("This is Converted value of (undefined) typeof into (boolean) is :", typeof undefinedToBoolean);//boolean
 
 
 // /********************************Operation Conversion********************************** */
