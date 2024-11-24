@@ -18,7 +18,7 @@ console.log("4444444444444444444444");
 //1.3) Comparisons implicitly:
 let isEqual = "10"==10;//Implicitly converted 10 to "10"
 console.log(isEqual);//true
-console.log(typeof isEqual);//boolean
+// console.log(typeof isEqual);//boolean
 
 //2:Based on Data Types
 //a. String Conversion: Converts a value to a string.
