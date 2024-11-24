@@ -8,30 +8,16 @@ Examples include using String(), Number(), or Boolean() etc.*/
 
 //1:Based on Conversion Method
 // 1. Implicit Type Casting (Type Coercion):  It performed Automatically by the programming language
-//1.1) String Concatenation with Number:
-let strConcatenation = "Aqdas"+999;
-// console.log(strConcatenation);//Implicitly converts 999 to "999"
-// console.log(typeof strConcatenation);//string
-console.log("\n");
-let numConcatenation = 222+"Ali";
-// console.log(numConcatenation);//222Ali
-// console.log(typeof numConcatenation);//string
 
-//1.2) Boolean in Arithmetic:
-console.log("\n");
-let boolInAri = true+999;
-// console.log(boolInAri);//true is implicitly converted to 1
-// console.log(typeof boolInAri);//boolean
-
+console.log("444444444444444444");
 //1.3) Comparisons implicitly:
-console.log("\n");
 let isEqual = "10"==10;//Implicitly converted 10 to "10"
-// console.log(isEqual);//true
-// console.log(typeof isEqual);//boolean
+console.log(isEqual);//true
+console.log(typeof isEqual);//boolean
 
 //2.Explicitly type casting: It Performed manually by the programmer using casting methods, functions, or operators.
 //2.1) Convert String to Number:
-console.log("\n");
+console.log("555555555555555555");
 let str = "Hello";
 console.log("Actual Ans of str is :",str);//Hello
 console.log("Actual Datatype of str is :",typeof str);//string
@@ -41,7 +27,7 @@ console.log("After Converted strToNo value is :",strToNo);//NaN (not a number)
 console.log("After converted typeof strToNo is :",typeof strToNo);//number
 
 //2.2) Convert Number to String:
-console.log("\n");
+console.log("6666666666666666666");
 let number = 24;
 console.log("Actual Ans of No is :",number);//24
 console.log("Actual Datatype of No is :",typeof number);//number
@@ -51,7 +37,11 @@ console.log("After Converted noToStr value is :",noToStr);//24
 console.log("After converted typeof noToStr is :",typeof noToStr);//string
 
 
-//2:Based on Data Types
+
+
+
+
+
 // //Converting Numbers to Strings
 // console.log("******************0001********************");
 // //Number datatype conversing into string starts from here:
@@ -422,5 +412,5 @@ if (0) {
 
 ---
 
-This detailed breakdown covers all types of type casting in JavaScript. Let me know if you need further clarification or examples!
+This detailed breakdown covers all types of type casting in JavaScript. Let me know if you need further clarification or examples!u
 */
