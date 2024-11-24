@@ -34,7 +34,7 @@ console.log("Converted typeof str3 to number is :",typeof parseFloat(str3));//nu
 // Another method to convert any string to number using Number() function using this method syntax
 let strToNo1 = Number(str3);
 console.log("Converted valToStr is :",strToNo1);//Nan (not a number)
-console.log("Converted typeof valToStr is :",typeof strToNo1);//number
+// console.log("Converted typeof valToStr is :",typeof strToNo1);//number
 console.log("\n");
 
 // Implicit Conversion: During arithmetic operations:
