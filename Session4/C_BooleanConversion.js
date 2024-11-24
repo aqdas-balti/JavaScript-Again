@@ -12,7 +12,6 @@ let valToBool = Boolean(value);
 console.log("Converted valToBool Ans is :",valToBool); // false
 console.log("Converted valToBool typeof is ",typeof valToBool);//boolean
 
-
 // Implicit Conversion: In conditional statements:
 //truthy value
 if ("non-empty string") {
@@ -23,6 +22,5 @@ if (0) {
     console.log("This is false"); // Runs because non-empty strings are truthy
 }else
 {
-    console.log("0 is falsy value");
-    
+    console.log("0 is falsy value");  
 }
