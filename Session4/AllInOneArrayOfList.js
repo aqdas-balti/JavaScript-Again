@@ -23,7 +23,8 @@ const values = [
     { original: undefined, toNumber: Number(undefined), toString: String(undefined), toBoolean: Boolean(undefined) },
   ];
   
-  // Print the conversion results in detail
+
+  // Print the conversion results in detail :
   values.forEach((item) => {
     console.log(`Original: ${item.original}`);
     console.log(`To Number: ${item.toNumber}`);
