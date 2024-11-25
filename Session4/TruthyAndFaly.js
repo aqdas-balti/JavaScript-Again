@@ -80,7 +80,6 @@ console.log("**************OBJECT CONTEXT ENDS HERE*****************");
 
 /*4. Boolean Context
 When evaluated in a boolean context, JavaScript converts values to true or false based on truthiness or falsiness.
-
 Examples:*/
 
 console.log(Boolean("")); // false
@@ -121,8 +120,6 @@ console.log("10" + 2); // "102" (string concatenation)
 console.log(true + 1); // 2 (true converts to 1)
 console.log(false - 1); // -1 (false converts to 0)
 console.log("**************ARITHMETIC OPERATORS CONTEXT ENDS HERE*****************");
-
-
 
 /*
 Table of Contextual Evaluations
