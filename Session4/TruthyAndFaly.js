@@ -1,28 +1,3 @@
-//Truthiness and Falsiness in Type Casting
-//Values are either truthy (convert to true) or falsy (convert to false) when evaluated in boolean contexts.
-
-//Falsy Values:
-
-// 0
-// "" (empty string)
-// null
-// undefined
-// NaN
-// false
-// Truthy Values:
-
-// Any value not in the falsy list (e.g., "0", [], {}).
-// Example:
-
-// javascript
-// Copy code
-// if (0) {
-//     console.log("Won't run");
-// } else {
-//     console.log("Runs because 0 is falsy");
-// }
-
-
 /*Truthiness and Falsiness in Boolean Contexts
 1. Falsy Values
 1. Falsy Values
