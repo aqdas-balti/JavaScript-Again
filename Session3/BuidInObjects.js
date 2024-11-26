@@ -71,3 +71,111 @@ Typed Arrays are used for handling binary data in raw formats (useful for WebGL 
 ### Summary of Built-in Objects in JavaScript
 JavaScript's built-in objects allow for a wide variety of operations, including mathematical calculations, string manipulation, error handling, data storage, asynchronous operations, and more. This foundational set of objects is extended in modern JavaScript through libraries and frameworks, enhancing JavaScript’s capabilities for web, server, and cross-platform development.
 */
+
+/*2. Built-in Objects
+JavaScript provides several built-in objects categorized based on their use cases.
+Core Objects
+These are available globally and do not need to be imported.
+Object
+Represents a generic JavaScript object.
+*/
+const obj1 = { key: "value" };
+console.log(Object.keys(obj1)); // Output: ["key"]
+console.log("Objects Ends Here");
+/*Function
+Represents JavaScript functions.*/
+function example() {
+  return "Hello!";
+}
+console.log(example()); // Output: Hello!
+console.log("Functions Ends Here");
+/*Array
+Represents a list-like object.*/
+const arr = [1, 2, 3];
+arr.push(4);
+console.log(arr); // Output: [1, 2, 3, 4]
+console.log("Array Ends Here");
+
+/*String
+Used to manipulate strings.*/
+const str = "Hello, World!";
+console.log(str.toUpperCase()); // Output: HELLO, WORLD!
+console.log("Strings Ends Here");
+
+/*Number
+Used for numerical operations.*/
+const num = 42.5;
+console.log(Math.round(num)); // Output: 43
+console.log("Numbers Ends Here");
+
+/*Boolean
+Represents logical values.*/
+const isAvailable = true;
+console.log(typeof isAvailable); // Output: boolean
+console.log("Booleans Ends Here");
+
+/*Date
+Used to work with dates and times.*/
+const now = new Date();
+console.log(now.toDateString()); // Output: e.g., Mon Nov 25 2024
+console.log("Dates Ends Here");
+
+/*Math
+Provides mathematical operations.*/
+console.log(Math.sqrt(16)); // Output: 4
+console.log("Maths Ends Here");
+
+/*Error
+*/
+try {
+  throw new Error("Something went wrong!");
+} catch (err) {
+  console.log(err.message); // Output: Something went wrong!
+}
+console.log("Error Ends Here");
+
+// TypeError
+try {
+  null.someMethod();
+} catch (err) {
+  console.log(err instanceof TypeError); // Output: true
+}
+console.log("TypeError Ends Here");
+
+/*Utility Objects
+Useful for handling more specific tasks.
+JSON
+Used to parse and stringify JSON.*/
+
+const obj = { name: "John" };
+const json = JSON.stringify(obj);
+console.log(json); // Output: {"name":"John"}
+console.log("JASON Ends Here");
+
+/*Promise
+Represents a value that may be available now, or in the future.*/
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("Done!"), 1000);
+});
+
+promise.then((result) => console.log(result)); // Output after 1s: Done!
+console.log("Promise Ends Here");
+
+/*DOM Objects (Browser-Specific)
+These are related to the Document Object Model (DOM).
+Document
+Represents the webpage content.*/
+// console.log(document.title); // Outputs the title of the current webpage.
+// console.log("Document Ends Here");
+
+/*Window
+Represents the browser window.*/
+// console.log(window.innerWidth); // Outputs the width of the browser window.
+// console.log("Window Ends Here");
+
+/*HTMLElement
+Represents elements in the DOM.*/
+// const element = document.getElementById("myElement");
+// console.log(element.textContent); // Outputs the text inside the element.
+// console.log("Element Ends Here");
+// This is a high-level overview of objects in JavaScript. Let me know if you need details on any specific part!*/
