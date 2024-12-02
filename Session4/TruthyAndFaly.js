@@ -119,7 +119,7 @@ console.log("10" - 2); // 8 ("10" is converted to 10)
 console.log("10" + 2); // "102" (string concatenation)
 console.log(true + 1); // 2 (true converts to 1)
 console.log(false - 1); // -1 (false converts to 0)
-console.log("**************ARITHMETIC OPERATORS CONTEXT ENDS HERE*****************");
+// console.log("**************ARITHMETIC OPERATORS CONTEXT ENDS HERE*****************");
 
 /*
 Table of Contextual Evaluations
