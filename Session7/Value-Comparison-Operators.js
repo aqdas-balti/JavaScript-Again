@@ -153,6 +153,7 @@ Checks if two variables do not refer to the same object in memory or have differ
   let b8 = [1, 2, 3];
   let result8 = (a8 !== b8);  // true
   console.log("Not Identity result is :",result8);
+
 /*
 ### Summary of Comparison Operators in JavaScript:
 
@@ -169,3 +170,26 @@ Checks if two variables do not refer to the same object in memory or have differ
 
 These examples demonstrate how comparison operators work in JavaScript. 
 */
+
+/*
+In JavaScript, `Object.is()` is a method used to compare two values to determine if they are the same. It is similar to the strict equality operator (`===`), but with some differences in how it handles certain edge cases.
+
+### Syntax:
+
+Object.is(value1, value2);
+
+### Differences between `Object.is()` and `===`:
+1. **`NaN` Comparison**: 
+   - `Object.is(NaN, NaN)` returns `true`, while `NaN === NaN` returns `false`.
+   
+2. **Signed Zero**:
+   - `Object.is(0, -0)` returns `false` (because `+0` and `-0` are distinct values), while `0 === -0` returns `true`.
+
+### Example:
+*/
+console.log(Object.is(25, 25));         // true
+console.log(Object.is(25, '25'));       // false
+console.log(Object.is(NaN, NaN));       // true (But in "===" case it returns false)
+console.log(Object.is(0, -0));          // false (But in "===" case it returns true)
+console.log(Object.is(+0, -0));         // false (But in "===" case it returns true)
+console.log(Object.is(undefined, null)); // false
