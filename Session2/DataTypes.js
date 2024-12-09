@@ -11,7 +11,7 @@ yea primitive data types call by value ka scenario ko follow kartay ha yea, hm y
    - JavaScript mein kuch special numeric values bhi hoti hain:
      - `Infinity`: Jab koi number 0 se divide ho jaye.
      - `-Infinity`: Jab koi negative number 0 se divide ho jaye.
-     - `NaN` (Not-a-Number): Jab koi ghalat calculation ho, jaise 0 ko 0 se divide karna.
+     - `NaN` (Not-a-Number): Jab koi ghalat calculation ho, jaise 0 ko 0 se divide karna ye sisi sring ko number say conversion kar ka delalayer kaet hain.
 */
 
 let age = 30;
