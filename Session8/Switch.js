@@ -2,14 +2,12 @@
 Part 2: Switch Challenge
 Problem:
 Write a JavaScript program that:
-
 Prompts the user to enter a day of the week (e.g., "Monday", "Tuesday").
 The program should log an appropriate message based on the day:
 "Monday", "Tuesday", "Wednesday", "Thursday", "Friday": Log "It's a weekday. Time to work!"
 "Saturday" or "Sunday": Log "It's the weekend. Enjoy your time!"
 If the input is not a valid day of the week, log "Invalid day entered. Please try again."
 */
-
 // Required module for taking user input from console
 let readline = require('readline');
 
