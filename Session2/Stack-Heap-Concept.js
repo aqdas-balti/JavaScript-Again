@@ -162,9 +162,7 @@ console.log(friends1); // Output: ["Sara", "Zain"]
 2. **Overwriting** mein hum **reference ko replace kar dete hain** with a completely new object or array. Isse **original object ya array ko koi effect nahi hota**.
 
 Is tarah se aap **modifying** aur **overwriting** ka behavior samajh sakte hain, aur jab aapko kisi function mein values ko change karna ho, toh aapko yeh decide karna hota hai ke aapko **modifying** karni hai ya **overwriting**.
- */
 
-/*
 Why Functions Behave This Way?
 Functions behave exactly like objects:
 Jab hum function ko assign karte hain, to reference copy hota hai.
