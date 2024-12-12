@@ -47,5 +47,5 @@ myInterface.question("Enter a day of the week: ", (day) => { // Prompt user and 
     }
 
     // Close the readline interface after processing the input
-    myInterface.close();
+    // myInterface.close();
 });
