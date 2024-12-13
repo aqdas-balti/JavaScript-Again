@@ -40,7 +40,6 @@ myInterface.question("Input your age: ", function (age) { // User se input lene 
     } else {
         console.log("Invalid age entered."); // Agar input valid number na ho
     }
-    // Step 5: Close karna
     // Input aur output ka interface close karna
     myInterface.close();
 });
