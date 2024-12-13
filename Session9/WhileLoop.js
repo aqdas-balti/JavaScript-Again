@@ -18,3 +18,11 @@ Yahan loop start hota hai. i = 0 se shuru karega, jab tak i < 5 hai tab tak chal
 console.log("Count:", i);
 Har iteration par i ki value print karega (0 se 4 tak).
 */
+
+let name = "Aqdas";
+let j = 0;
+while (j < name.length) {
+    console.log(name[j]);
+    j++;
+}
+//In this example, the while loop iterates over the characters of the string "Aqdas" and prints each character.
