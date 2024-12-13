@@ -24,3 +24,6 @@ let name = "Aqdas";
 for (let i = 0; i < name.length; i++) {
     console.log(name[i]);
 }
+
+
+//In this example, the for loop iterates over the characters of the string "Aqdas" and prints each character.
