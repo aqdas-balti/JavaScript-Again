@@ -9,16 +9,16 @@ The program should log an appropriate message based on the day:
 If the input is not a valid day of the week, log "Invalid day entered. Please try again."
 */
 // Required module for taking user input from console
-let readline = require('readline');
+// let readline = require('readline');
 
 // Create an interface for input and output with the console
-let myInterface = readline.createInterface({
+let myInterface1 = readline.createInterface({
     input: process.stdin, // Input from the keyboard
     output: process.stdout // Output to the console
 });
 
 // Ask the user to input a day of the week
-myInterface.question("Enter a day of the week: ", (day) => { // Prompt user and wait for response
+myInterface1.question("Enter a day of the week: ", (day) => { // Prompt user and wait for response
     // Use a switch statement to determine the input's value
     switch (day) {
         case "Monday": // If user enters "Monday"
@@ -47,5 +47,11 @@ myInterface.question("Enter a day of the week: ", (day) => { // Prompt user and 
     }
 
     // Close the readline interface after processing the input
-    myInterface.close();
+    myInterface1.close();
 });
+/* keise kaam karte hain?
+Jab aap rl.question() method chalate hain, terminal mein ek message show hota hai (e.g., "Apka naam kya hai?").
+User input deta hai aur "Enter" press karta hai.
+Callback function (jo () => {} ke andar hai) input ko handle karta hai.
+Input ko aap process kar sakte hain (jaise console par dikhana ya kisi variable mein store karna).
+Interface band karne ke liye rl.close() ka use hota hai.*/
