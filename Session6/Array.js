@@ -232,7 +232,7 @@ console.log(evenNumbers); // [2, 4]
 console.log("Reduce Method:array ke koi part ko copy karna.");
 let numbers4 = [1, 2, 3, 4, 5];
 let sum = numbers4.reduce((total, num) => total + num, 0);
-// console.log(sum); // 15
+console.log(sum); // 15
 /*
 Agar kisi method ki aur tafseel chahiye ho ya examples zarurat ho, to zarur poochein! 😊
 */
