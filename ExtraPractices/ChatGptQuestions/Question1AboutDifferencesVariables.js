@@ -49,3 +49,5 @@ if (true) {
     console.log(z2);//we can access x and y here in this block
 }   
 // console.log(z2);//we can't access x and y outside the block because of block scoped variable it will get error
+//summary:
+//var is globally scoped, let and const are block scoped, const is used for constant values
