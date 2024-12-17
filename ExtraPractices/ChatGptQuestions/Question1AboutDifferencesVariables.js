@@ -40,3 +40,12 @@ if (true) {
 // console.log(z1);//we can't access x and y outside the block because of block scoped variable it will get error
 
 //const is used for variables whose values are intended to stay constant throughout the code execution
+const language = "JavaScript";
+console.log(language);
+if (true) {
+    const x2 = 20;
+    const y2 = 30;
+    const z2 = x2 + y2;
+    console.log(z2);//we can access x and y here in this block
+}   
+// console.log(z2);//we can't access x and y outside the block because of block scoped variable it will get error
