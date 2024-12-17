@@ -15,5 +15,11 @@ console.log(Let);//10 (Now here it will be accessible)
 const Const = 20;
 console.log(Const);//20 (Now here it will be accessible)
 
+//Function case is the same as let and const blocked scopes
+// console.log(Function(6));//Error: Cannot access 'Function' before initialization
+let Function = function(num){
+    return num+1;
+}
+console.log(Function(6));//7
 
 
