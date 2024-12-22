@@ -68,5 +68,5 @@ for (const [key, value] of userInfo) {
 | Values ko iterate karta hai.     | Keys/Indexes ko iterate karta hai. |
 | Arrays, Strings, Maps, etc. pe kaam karta hai. | Objects pe zyada useful hai. |
 
-Agar aapko `for...of` ke kisi aur use case ke liye madad chahiye ho, to bataiye! 😊
+// Agar aapko `for...of` ke kisi aur use case ke liye madad chahiye ho, to bataiye! 😊
 */
