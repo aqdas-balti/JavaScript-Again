@@ -40,7 +40,7 @@ for (const char of name) {
 const numbers = new Set([1, 2, 3]);
 
 for (const num of numbers) {
-  console.log(num);
+  // console.log(num);
 }
 // Output:
 // 1
