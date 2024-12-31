@@ -13,7 +13,7 @@ They are automatically declared when first used:
 x = 5;
 y = 6;
 z = x + y;
-console.log("Automatically declared variables:"+z);
+// console.log("Automatically declared variables:"+z);
 
 /*Note:
 It is considered good programming practice to always declare variables before use.
