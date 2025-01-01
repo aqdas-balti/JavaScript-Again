@@ -32,7 +32,7 @@ console.log("While Loop");
 let val = prompt2("Enter a number: ");
 let i = 1;
 while (i <= 5) {
-    console.log(val, "*", i, "=", val * i);
+    // console.log(val, "*", i, "=", val * i);
     i++;
 }
 //Explanation:
