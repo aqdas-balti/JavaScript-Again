@@ -3,9 +3,8 @@
 The while loop executes code as long as the condition is true. Use it when the number of iterations isn't known beforehand.
 
 Example:*/
-
 let a = 0;
-while (i < 5) {
+while (a < 5) {
     console.log("Count:", a);
     a++;
 }
